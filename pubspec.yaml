@@ -1,0 +1,64 @@
+name: notify
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  #firebase
+  firebase_core: any
+  #fcm
+  firebase_messaging: any
+  flutter_local_notifications: any
+  cloud_functions: ^1.0.0
+  #authentication
+  firebase_auth: ^1.0.1
+  #database
+  firebase_database: ^6.1.0
+  cloud_firestore: ^1.0.1
+  #toast
+  fluttertoast: ^7.1.8
+  #location
+  geolocator: ^7.0.1
+  google_maps_flutter: ^2.0.1
+  url_launcher: ^6.0.3
+  permission_handler: ^6.1.1
+  # workmanager: ^0.2.3
+  wakelock: ^0.5.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #icon and splash screen
+  flutter_launcher_icons: ^0.9.0
+  flutter_native_splash: ^1.0.3
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
+
+flutter_native_splash:
+  image: assets/images/icon.png
+  color: "#ffffff"
+  fill: false
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/icon.png
+    - assets/images/source_pin_android.png
+  fonts:
+  - family: FugazOne
+    fonts:
+    - asset: assets/fonts/FugazOne-Regular.ttf
+
